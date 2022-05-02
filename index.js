@@ -16,7 +16,8 @@ var cachorro = {
 cachorro.nome = prompt('Qual o nome do seu cachorro?')
 cachorro.dataNascimento = prompt('Quando é o aniversário do seu cachorro?')
 
-
 btnLatir.addEventListener('click', cachorro.latir);
 btnComer.addEventListener('click', cachorro.comer);
-btnObjeto.addEventListener('click', console.log(cachorro));
+btnObjeto.addEventListener('click', function () {
+    console.log(cachorro)
+});
